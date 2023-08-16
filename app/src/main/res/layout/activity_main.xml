@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <!--first horizontal linear layout-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+<!--        1st card-->
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardabout"
+            android:elevation="10dp"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            app:cardCornerRadius="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:padding="25dp"
+                    android:src="@drawable/about"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_marginBottom="5dp"
+                    android:text="About COVID-19" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+<!--      2nd card  -->
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardcauses"
+            android:elevation="10dp"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            app:cardCornerRadius="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:padding="25dp"
+                    android:src="@drawable/causes"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_marginBottom="5dp"
+                    android:text="Causes of COVID-19" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+
+
+    </LinearLayout>
+<!--  2nd horizontal layout  -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+<!--     3rd card   -->
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardsymptoms"
+            android:elevation="10dp"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            app:cardCornerRadius="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:padding="25dp"
+                    android:src="@drawable/symptoms"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_marginBottom="5dp"
+                    android:text="Symptoms of COVID-19" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+<!--    4th card    -->
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardprevention"
+            android:elevation="10dp"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            app:cardCornerRadius="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:padding="25dp"
+                    android:src="@drawable/prevention"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_marginBottom="5dp"
+                    android:text="Prevention of COVID-19" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+
+
+
+    </LinearLayout>
+<!--  3rd horizontal layout  -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+<!--     5th card   -->
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardtellfree"
+            android:elevation="10dp"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            app:cardCornerRadius="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:padding="25dp"
+                    android:src="@drawable/tollfree"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_marginBottom="5dp"
+                    android:text="Tell Free" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+<!--      6th card  -->
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardlocate"
+            android:elevation="10dp"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            app:cardCornerRadius="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:padding="25dp"
+                    android:src="@drawable/location"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_marginBottom="5dp"
+                    android:text="Locate Us" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+
+    </LinearLayout>
+
+</LinearLayout>
